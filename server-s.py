@@ -30,7 +30,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
         print('Connected by', addr)
         try:
             conn.send(b'accio\r\n')
-
+#tesy
         except:
             print("Couldn't send accio")
         try:
